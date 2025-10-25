@@ -1,0 +1,90 @@
+/* Warm white-ish background */
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Container holding content and video */
+.container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+}
+
+/* Menu/content section on the left */
+.content-background {
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: linear-gradient(to right, rgba(255, 248, 240, 1) 60%, rgba(255, 248, 240, 0) 100%);
+}
+
+.menu-board {
+    z-index: 5;
+    width: 40%;
+    margin-left: 4%;
+    margin-top: 6%;
+}
+
+.one-column {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.category {
+}
+
+h2 {
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 0 12px;
+    font-size: 28px;
+}
+
+.item:nth-child(2) {
+    padding-top: 5px;
+}
+
+.item:last-child {
+    padding-bottom: 5px;
+    border-bottom: none;
+}
+
+.price {
+}
+
+/* Video section on the right */
+.video-section {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
