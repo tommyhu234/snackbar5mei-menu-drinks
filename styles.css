@@ -26,7 +26,7 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    background: linear-gradient(to right, rgba(255, 248, 240, 1) 60%, rgba(255, 248, 240, 0) 100%);
+    background: linear-gradient(to right, #F3E6D4 60%, rgba(255, 248, 240, 0) 100%);
 }
 
 .menu-board {
