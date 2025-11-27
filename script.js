@@ -2,7 +2,7 @@ const videos = ["milkshake.mp4", "ice-cream.mp4"]
 let currentIndex = 0;
 let activeVideo = document.getElementById("video-1");
 let nextVideo = document.getElementById("video-2");
-const fadeDuration = 1; // seconds
+const fadeDuration = 1.5; // seconds
 
 function playVideo(videoElement, source) {
   videoElement.src = source;
