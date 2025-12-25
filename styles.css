@@ -56,12 +56,22 @@ h2 {
     font-weight: 600;
 }
 
+.item-small {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 0 12px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 .item {
     display: flex;
     justify-content: space-between;
     color: black;
     padding: 0 12px;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .item:nth-child(2) {
